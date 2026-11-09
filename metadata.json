@@ -1,0 +1,6 @@
+{
+  "name": "AI Study Mate",
+  "description": "AI-powered personal learning ecosystem combining AI Exam Tutor, AI Career Coach, persistent memory, and progress analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

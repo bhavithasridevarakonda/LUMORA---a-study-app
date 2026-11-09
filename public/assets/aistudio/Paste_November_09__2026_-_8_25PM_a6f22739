@@ -1,0 +1,1006 @@
+# PROJECT: AI STUDY MATE
+## Complete AI-Powered Personal Learning, Examination & Career Development Platform
+
+Act as a senior product architect, UI/UX designer, Flutter developer, full-stack engineer, cloud engineer, database architect and AI engineer.
+
+Your responsibility is to help me design and develop a complete, production-oriented application called **AI STUDY MATE**.
+
+Do not treat this as an ordinary chatbot project.
+
+I want to build a sophisticated AI-powered personal learning ecosystem that combines two intelligent systems:
+
+1. AI EXAM TUTOR
+2. AI CAREER COACH
+
+Both systems must work together through a shared student profile, persistent memory, learning history and progress-tracking system.
+
+The application must be developed with a premium visual identity, scalable architecture, secure backend and intelligent AI capabilities.
+
+---
+
+# 1. PROJECT VISION
+
+AI Study Mate is a personal AI learning companion that understands a student's academic requirements, remembers their learning journey, teaches college subjects, prepares them for examinations and guides them towards their career goals.
+
+The application should behave like a personal mentor who knows:
+
+- What the student is studying.
+- What the student has already learned.
+- What the student finds difficult.
+- Which materials the student has uploaded.
+- What examinations the student is preparing for.
+- What career they want to pursue.
+- What technical skills they have acquired.
+- What they need to learn next.
+- Their previous conversations and learning progress.
+
+The most important requirement is PERSISTENT MEMORY.
+
+When a student closes an existing conversation and starts a completely new conversation, the AI must retrieve relevant information from previous conversations and continue helping without losing important context.
+
+The platform must combine:
+
+ACADEMIC LEARNING + CAREER DEVELOPMENT + PERSONALIZED AI MEMORY + PROGRESS ANALYTICS.
+
+# 2. OFFICIAL BRAND IDENTITY
+
+Use the following official visual identity consistently throughout the mobile application and website.
+
+## Official color palette
+
+Primary:
+- Charcoal Black: #171717
+- Forest Green: #06110C
+- Crimson Red: #A31C1B
+
+Supporting:
+- Ivory White: #F4F0E8
+- Muted Grey: #A7A7A0
+- Graphite: #242424
+- Border Grey: #343434
+
+Accent shades:
+- Forest Highlight: #4D956B
+- Crimson Highlight: #D64A45
+
+IMPORTANT:
+Do not introduce blue, purple, neon pink or unrelated color palettes.
+
+## Design direction
+
+The entire product must follow a:
+
+DARK LUXURY + CINEMATIC + EDITORIAL + PREMIUM TECHNOLOGY aesthetic.
+
+The UI should look sophisticated, elegant, modern and visually addictive in a positive productivity-focused way.
+
+The experience should make students feel excited to open the application and continue learning.
+
+Design inspiration:
+- Premium automotive websites.
+- Luxury editorial websites.
+- Modern developer productivity dashboards.
+- High-end AI SaaS platforms.
+- Cinematic dark interfaces.
+
+Avoid:
+- Generic educational application designs.
+- Excessive gradients.
+- Childish illustrations.
+- Cartoon-style icons.
+- Excessive glowing effects.
+- Bright white backgrounds.
+- Overcrowded dashboards.
+- Unnecessary animations.
+
+Use subtle lighting, elegant borders, refined cards, sophisticated typography, clean layouts and purposeful micro-interactions.
+
+## Typography
+
+Use:
+- Manrope for headings.
+- Inter for body text.
+
+Use clear visual hierarchy, generous spacing and readable font sizes.
+
+## Workspace color identities
+
+TUTOR:
+- Forest Green is the primary workspace accent.
+- Calm, intellectual and focused.
+- Green progress indicators and academic highlights.
+
+COACH:
+- Crimson Red is the primary workspace accent.
+- Ambitious, energetic and action-oriented.
+- Crimson highlights, career milestones and achievement indicators.
+
+SHARED DASHBOARD:
+- Charcoal Black background.
+- Forest Green and Crimson Red used selectively.
+
+# 3. APPLICATION PLATFORMS
+
+Develop the product with two connected interfaces:
+
+A. Flutter mobile application.
+B. Responsive web application.
+
+The mobile and web interfaces must share:
+- Branding.
+- Color tokens.
+- Typography.
+- Design language.
+- Backend.
+- Database.
+- AI functionality.
+- Student profile.
+- Memory system.
+- Learning records.
+
+However, the layouts should adapt to their respective devices.
+
+## Mobile application
+
+Use:
+- Bottom navigation.
+- Stacked cards.
+- Responsive charts.
+- Touch-friendly controls.
+- Mobile-friendly chat.
+- Document upload interface.
+
+## Website
+
+Use:
+- Persistent left sidebar.
+- Wide dashboard.
+- Multi-column layouts.
+- Advanced analytics.
+- Responsive document library.
+- Larger chat workspace.
+
+Do not simply stretch the mobile interface to create the website.
+
+IMPORTANT: Keep Flutter as the official mobile application technology. If your current environment cannot generate Flutter source code, explicitly distinguish any web prototype from the Flutter deliverable. Never silently replace Flutter with React or another framework.
+
+# 4. MAIN APPLICATION NAVIGATION
+
+Create the following main navigation:
+
+1. Home
+2. Tutor
+3. Coach
+4. My Progress
+5. Profile
+
+The application must provide a unified experience while allowing Tutor and Coach to have their own independent workspaces.
+
+# 5. HOME DASHBOARD
+
+Design a visually impressive home dashboard.
+
+Include:
+
+- Personalized welcome message.
+- Student profile.
+- AI Study Mate branding.
+- Quick access to Tutor.
+- Quick access to Coach.
+- Overall learning progress.
+- Recent learning activities.
+- Upcoming tasks.
+- Recently studied subjects.
+- Career preparation summary.
+- Quick AI chat access.
+- Daily learning recommendations.
+
+The dashboard must not feel overcrowded.
+
+Use carefully organized cards and clear visual hierarchy.
+
+The user should immediately understand where to go next.
+
+# 6. MODULE ONE: AI EXAM TUTOR
+
+Create a dedicated academic workspace.
+
+Its responsibility is to help students prepare for college examinations using uploaded study materials and syllabi.
+
+## Tutor dashboard
+
+Include:
+
+- My Subjects.
+- My Syllabus.
+- Uploaded Materials.
+- Previous Question Papers.
+- Ask AI Tutor.
+- Practice Tests.
+- Revision Tracker.
+- Examination Preparation Progress.
+
+## Subject management
+
+Allow students to create and manage subjects such as:
+
+- Data Structures.
+- Database Management Systems.
+- Operating Systems.
+- Computer Networks.
+- Python.
+- Java.
+- Computer Organization.
+- Mathematics.
+- Any other college subject.
+
+Every subject must have its own workspace.
+
+## Syllabus management
+
+Allow students to:
+
+- Upload a syllabus PDF.
+- Extract chapters and topics.
+- Organize topics unit-wise.
+- Mark topics as completed.
+- Mark topics as currently learning.
+- Mark topics as pending.
+- Track syllabus completion percentage.
+- Add personal notes.
+- Track difficult topics.
+
+## Document upload system
+
+Support:
+
+- PDF files.
+- DOCX documents.
+- TXT files.
+- Notes.
+- Previous question papers.
+- Assignment materials.
+
+Create a document library where students can view, search, organize and delete uploaded materials.
+
+## AI examination assistant
+
+The Tutor must:
+
+- Explain difficult concepts in simple language.
+- Generate short answers.
+- Generate 2-mark answers.
+- Generate 5-mark answers.
+- Generate 10-mark answers.
+- Explain programming examples.
+- Generate diagrams when appropriate.
+- Provide step-by-step solutions.
+- Generate important questions.
+- Create MCQs.
+- Conduct mock examinations.
+- Evaluate submitted answers.
+- Identify weak topics.
+- Recommend revision.
+
+## Answer generation requirements
+
+The AI must prioritize uploaded study materials and the student's syllabus.
+
+When answering examination questions:
+
+- Provide accurate explanations.
+- Use simple and understandable language.
+- Structure answers according to marks.
+- Include definitions, explanations and examples.
+- Include diagrams or tables when useful.
+- Mention the source document and page or section where available.
+- Clearly identify when information is not present in the uploaded material.
+
+Never fabricate textbook references, page numbers or facts.
+
+Use external knowledge only when necessary, and distinguish it from information retrieved from the student's documents.
+
+# 7. DOCUMENT INTELLIGENCE: RAG ARCHITECTURE
+
+Implement Retrieval-Augmented Generation.
+
+The document processing pipeline must work as follows:
+
+1. Student uploads a document.
+2. Upload it securely to cloud storage.
+3. Extract its text.
+4. Split text into meaningful chunks.
+5. Generate embeddings.
+6. Store embeddings in PostgreSQL using pgvector.
+7. Associate chunks with their document, subject and user.
+8. Retrieve relevant chunks when a question is asked.
+9. Pass relevant content to the AI model.
+10. Generate an answer supported by retrieved content.
+11. Display source references.
+
+Include:
+- Semantic search.
+- Metadata filtering.
+- Document-specific retrieval.
+- Subject-specific retrieval.
+- Source citations.
+- Retrieval confidence checks.
+- Handling of scanned PDFs where possible.
+- Error handling for unsupported or corrupted documents.
+
+Ensure that documents uploaded by one user cannot be retrieved by another user.
+
+# 8. MODULE TWO: AI CAREER COACH
+
+This is a separate, fully developed workspace.
+
+It should act as a personal career mentor and technical job preparation assistant.
+
+The Coach must not be just a chatbot.
+
+It must have its own dashboard, analytics, roadmap, learning history and skill development system.
+
+## Coach dashboard
+
+Include:
+
+A. Overall career preparation percentage.
+
+B. Skill-wise progress.
+
+C. Learning roadmap.
+
+D. Weekly study activity.
+
+E. Completed activities.
+
+F. Pending activities.
+
+G. Current learning goals.
+
+H. Technical interview preparation.
+
+I. Coding practice.
+
+J. AI Career Chat.
+
+## Technical skills management
+
+Allow students to track:
+
+- Programming languages.
+- Data Structures and Algorithms.
+- DBMS.
+- Operating Systems.
+- Computer Networks.
+- Object-Oriented Programming.
+- Web Development.
+- App Development.
+- Cloud Computing.
+- AI and Machine Learning.
+- Software Engineering.
+- System Design.
+
+Students should also be able to add custom skills.
+
+Every skill should have:
+- Current proficiency.
+- Target proficiency.
+- Completed lessons.
+- Practice questions solved.
+- Assessment scores.
+- Learning history.
+- Last studied date.
+- Recommended next activity.
+
+## Career learning roadmap
+
+Allow the AI Coach to create personalized learning roadmaps based on:
+
+- Student's career goal.
+- Current skill level.
+- Available study time.
+- Existing knowledge.
+- Target job role.
+- Technical skill requirements.
+
+Example career paths:
+
+- Software Developer.
+- Full Stack Developer.
+- Flutter Developer.
+- Data Analyst.
+- Data Scientist.
+- Cloud Engineer.
+- AI/ML Engineer.
+
+The student should be able to edit and customize their roadmap.
+
+## Daily learning planner
+
+Generate daily tasks based on the learning roadmap.
+
+Every task should have:
+
+- Task title.
+- Description.
+- Skill category.
+- Estimated duration.
+- Difficulty.
+- Priority.
+- Completion status.
+- Due date.
+
+Students must be able to mark tasks as completed.
+
+The AI Coach should use this information to recommend the next activity.
+
+# 9. PROGRESS ANALYTICS AND VISUALIZATION
+
+This is one of the most important features.
+
+I want the Coach to show the student exactly how much they have learned and how much work remains.
+
+Create an advanced but clean analytics dashboard.
+
+## Required analytics
+
+1. Overall career preparation percentage.
+2. Individual skill progress.
+3. Weekly study hours.
+4. Monthly study hours.
+5. Learning activity history.
+6. Completed tasks.
+7. Pending tasks.
+8. Coding problems solved.
+9. Quiz performance.
+10. Assessment scores.
+11. Learning streaks.
+12. Skill improvement over time.
+
+## Charts and graphs
+
+Use:
+- Bar charts for weekly and monthly study hours.
+- Line charts for skill improvement.
+- Progress bars for individual skills.
+- Circular indicators for overall completion.
+- Donut charts for learning distribution where appropriate.
+
+Allow filtering by:
+- Week.
+- Month.
+- Three months.
+- Overall history.
+
+## Progress calculation
+
+Progress must be calculated using actual database records.
+
+Basic formula:
+
+Progress Percentage =
+(Completed Tasks / Total Planned Tasks) × 100
+
+For more advanced progress, introduce weighted completion.
+
+Projects and assessments may carry more weight than simply reading a lesson.
+
+Maintain separate measurements for:
+
+COMPLETION:
+How much of the learning roadmap has been completed?
+
+MASTERY:
+How well does the student understand the material?
+
+Do not confuse activity completion with actual skill mastery.
+
+The AI must never invent progress percentages.
+
+Every chart must reflect actual recorded activities.
+
+# 10. LEARNING HISTORY
+
+Create a detailed learning timeline.
+
+Show:
+
+- What the student learned.
+- When they learned it.
+- Which lessons they completed.
+- Which coding problems they solved.
+- Which tests they attempted.
+- Their assessment results.
+- Which topics they struggled with.
+- What they need to revise.
+
+Include a weekly AI-generated learning report.
+
+The weekly report should explain:
+
+- What was accomplished.
+- Time spent studying.
+- Skills improved.
+- Weak areas.
+- Unfinished tasks.
+- Recommendations for the next week.
+
+# 11. SHARED AI MEMORY SYSTEM
+
+THIS IS A CORE FEATURE AND MUST BE IMPLEMENTED PROPERLY.
+
+The AI should remember relevant information across different chats and application sessions.
+
+Do not depend only on the current conversation context window.
+
+Implement persistent memory using the database.
+
+## Memory categories
+
+A. Student Profile Memory
+- Career goals.
+- Learning preferences.
+- Current academic level.
+- Technical experience.
+- Strengths and weaknesses.
+
+B. Academic Memory
+- Subjects.
+- Uploaded syllabus.
+- Completed chapters.
+- Difficult concepts.
+- Previous examination discussions.
+- Revision requirements.
+
+C. Career Memory
+- Target job role.
+- Skills acquired.
+- Skills to improve.
+- Learning roadmap.
+- Coding practice history.
+- Interview preparation history.
+
+D. Conversation Memory
+- Conversation summaries.
+- Important decisions.
+- Unfinished tasks.
+- Previous explanations.
+- Relevant discussion context.
+
+## Memory workflow
+
+1. Save conversations in the database.
+2. Identify useful long-term information.
+3. Extract candidate memories.
+4. Save approved or validated memories.
+5. Generate conversation summaries.
+6. Retrieve relevant memories when a new chat starts.
+7. Provide the AI with relevant context.
+8. Update memories when the student provides new information.
+
+Use embeddings and semantic retrieval when appropriate.
+
+Do not save every sentence as a permanent memory.
+
+Allow users to:
+- View saved memories.
+- Edit memories.
+- Delete memories.
+- Disable memory.
+- Review what the AI remembers.
+
+The student must retain control over their information.
+
+Tutor and Coach must share the student's relevant profile memory, while keeping subject-specific and career-specific records properly organized.
+
+# 12. AI CHAT SYSTEM
+
+Build a modern AI chat interface.
+
+Requirements:
+
+- Streaming responses where supported.
+- Chat history.
+- New conversations.
+- Conversation titles.
+- Message timestamps.
+- Copy response.
+- Regenerate response.
+- Code formatting.
+- Markdown rendering.
+- Tables.
+- Mathematical notation.
+- File attachments.
+- Context-aware responses.
+- Persistent memory retrieval.
+
+The chat should understand whether the student is currently using Tutor or Coach mode.
+
+TUTOR MODE:
+Prioritize syllabus, academic material, examination preparation and subject learning.
+
+COACH MODE:
+Prioritize career goals, technical skills, roadmaps, coding practice and interview preparation.
+
+Both modes should use the shared student memory system.
+
+# 13. AI COACH INTELLIGENCE
+
+The Coach should be proactive but not intrusive.
+
+It should:
+
+- Identify incomplete learning tasks.
+- Detect weak skills using assessment evidence.
+- Recommend what to study next.
+- Adjust learning roadmaps when necessary.
+- Recognize improvement.
+- Recommend revision.
+- Suggest practice questions.
+- Explain why a particular activity is recommended.
+
+Never claim that a student has mastered something without assessment evidence.
+
+# 14. DATABASE ARCHITECTURE
+
+Use Supabase with PostgreSQL.
+
+Create a normalized and scalable database design.
+
+Suggested tables:
+
+- profiles
+- conversations
+- messages
+- student_memory
+- memory_embeddings
+- documents
+- document_chunks
+- subjects
+- syllabus_units
+- syllabus_topics
+- learning_progress
+- skills
+- learning_goals
+- learning_tasks
+- task_completions
+- skill_assessments
+- study_sessions
+- progress_snapshots
+- practice_questions
+- quiz_attempts
+- career_roadmaps
+- user_preferences
+
+Define:
+- Primary keys.
+- Foreign keys.
+- Relationships.
+- Indexes.
+- Constraints.
+- Timestamps.
+- Appropriate data types.
+
+Implement Row Level Security for all user-owned data.
+
+Ensure strict user data isolation.
+
+Do not store secrets in public tables or Flutter source code.
+
+# 15. CLOUD ENGINEERING ARCHITECTURE
+
+Use Supabase as the primary backend.
+
+Required services:
+
+- Supabase Authentication.
+- PostgreSQL.
+- Supabase Storage.
+- pgvector.
+- Supabase Edge Functions.
+- Database migrations.
+- Row Level Security.
+
+Use server-side functions for:
+- AI chat orchestration.
+- Memory retrieval.
+- Memory extraction.
+- Document processing.
+- Embedding generation.
+- RAG retrieval.
+- Quiz generation.
+- Progress calculations.
+- Weekly report generation.
+
+Never expose private AI API keys to the client.
+
+All sensitive AI requests must pass through secure backend functions.
+
+Implement:
+- Authentication and authorization.
+- Input validation.
+- Rate limiting.
+- Error handling.
+- Logging.
+- Database backups.
+- Cost controls.
+- Secure storage access.
+
+# 16. AI MODEL INTEGRATION
+
+Use a modular AI service architecture.
+
+Google Gemini may be the initial model provider, but do not tightly couple the entire application to one AI provider.
+
+Create a service abstraction that allows switching between AI providers.
+
+Separate:
+- Chat generation.
+- Embedding generation.
+- Document extraction.
+- Memory processing.
+- Quiz generation.
+- Evaluation.
+
+Use model configurations appropriate to each task.
+
+Include:
+- Token usage tracking.
+- Error handling.
+- Context management.
+- Response validation.
+- Cost monitoring.
+
+# 17. TECHNICAL PROJECT STRUCTURE
+
+Keep the source code modular and maintainable.
+
+Flutter:
+
+lib/
+  core/
+    theme/
+    constants/
+    services/
+    routing/
+  features/
+    authentication/
+    dashboard/
+    tutor/
+    coach/
+    ai_chat/
+    documents/
+    memory/
+    analytics/
+    profile/
+  shared/
+    widgets/
+
+Supabase:
+
+supabase/
+  migrations/
+  functions/
+    ai-chat/
+    process-document/
+    retrieve-memory/
+    update-memory/
+    generate-quiz/
+    calculate-progress/
+    weekly-report/
+
+Website:
+
+website/
+  components/
+  pages/
+  styles/
+  services/
+
+Separate UI components, business logic, API services and database operations.
+
+Use clean architecture or a practical feature-first architecture.
+
+# 18. DEVELOPMENT ENVIRONMENT
+
+I prefer browser-based development because my laptop has limited RAM.
+
+Use:
+
+- GitHub for version control.
+- GitHub Codespaces for cloud development.
+- Supabase for backend services.
+- Browser-based tools whenever practical.
+- Flutter SDK in Codespaces when building the Flutter application.
+
+Avoid requiring unnecessary local software installations.
+
+Provide exact setup instructions.
+
+Explain every command and configuration step.
+
+# 19. SECURITY AND PRIVACY
+
+Implement:
+
+- Secure authentication.
+- Row Level Security.
+- Private document storage.
+- Secure API key management.
+- Input validation.
+- Access control.
+- User-controlled memory.
+- Secure file upload validation.
+- Protection against unauthorized data access.
+- Safe handling of uploaded documents and prompt injection.
+
+Treat uploaded documents as untrusted content, not as instructions that can override system rules.
+
+Students must only access their own private data.
+
+# 20. TESTING AND QUALITY ASSURANCE
+
+Include:
+
+- Flutter widget tests.
+- Unit tests.
+- Backend function tests.
+- Database security tests.
+- API integration tests.
+- Document retrieval tests.
+- Memory retrieval tests.
+- AI answer evaluation.
+- Progress calculation tests.
+- Responsive layout testing.
+
+Test that:
+- A new chat retrieves relevant previous memories.
+- Tutor can retrieve the correct uploaded subject materials.
+- Coach can retrieve the correct career history.
+- Progress percentages match actual database records.
+- Users cannot access other users' documents.
+- Charts display real database information.
+
+# 21. DEPLOYMENT
+
+Prepare the application for deployment.
+
+Include:
+
+- GitHub repository.
+- GitHub Actions CI/CD.
+- Flutter Android build.
+- Flutter Web build.
+- Web hosting.
+- Supabase production configuration.
+- Environment variables.
+- Database migrations.
+- Monitoring and error logging.
+- Backup strategy.
+
+Keep development, testing and production environments separate.
+
+# 22. DESIGN AND USER EXPERIENCE REQUIREMENTS
+
+Every screen must feel like part of one premium product.
+
+Use:
+- Consistent navigation.
+- Reusable cards.
+- Reusable buttons.
+- Consistent spacing.
+- Responsive charts.
+- Smooth transitions.
+- Subtle animations.
+- Loading skeletons.
+- Helpful empty states.
+- Clear error messages.
+- Accessible contrast.
+
+Use meaningful icons and avoid excessive decorative elements.
+
+The design must be polished on both mobile and desktop.
+
+# 23. DEVELOPMENT PHASES
+
+Develop in the following order.
+
+PHASE 1:
+Brand identity, design tokens, typography and reusable components.
+
+PHASE 2:
+Home dashboard, navigation and responsive layout.
+
+PHASE 3:
+Tutor and Coach UI workspaces.
+
+PHASE 4:
+Supabase authentication and database.
+
+PHASE 5:
+AI chat integration.
+
+PHASE 6:
+Document uploads and RAG.
+
+PHASE 7:
+Persistent cross-chat memory.
+
+PHASE 8:
+Career roadmap and learning task management.
+
+PHASE 9:
+Analytics, charts and progress tracking.
+
+PHASE 10:
+Testing, security, deployment and optimization.
+
+Do not attempt to build everything in one uncontrolled code generation step.
+
+# 24. IMPORTANT WORKING INSTRUCTIONS
+
+Follow these rules throughout development:
+
+1. First understand the entire project.
+2. Design the complete application architecture.
+3. Present the screen hierarchy and navigation.
+4. Create a complete design system.
+5. Build the UI using reusable components.
+6. Use realistic sample data only for prototypes.
+7. Clearly distinguish sample data from actual database records.
+8. Connect real functionality incrementally.
+9. Never fake AI memory or progress tracking.
+10. Never expose API keys.
+11. Explain the purpose of each major file.
+12. Write clean, documented and maintainable code.
+13. Do not silently replace Flutter with another technology.
+14. Do not omit features simply because the project is large.
+15. Maintain the official brand identity throughout.
+
+When implementing features, provide:
+- File names.
+- Complete source code.
+- Setup instructions.
+- Dependencies.
+- Environment variables required.
+- Database migrations.
+- Testing instructions.
+
+If a feature requires external credentials, clearly identify what I need to configure.
+
+If you encounter a technical limitation, explain it and propose an alternative without silently changing the architecture.
+
+---
+
+# FIRST TASK: START THE PROJECT
+
+Before generating the complete application, perform the following:
+
+1. Analyze the entire specification.
+2. Propose the complete technical architecture.
+3. Design the mobile and desktop navigation.
+4. Create the official design system using the specified colors.
+5. Define all major application screens.
+6. Create a screen-by-screen implementation plan.
+7. Identify the database relationships.
+8. Identify all required external services.
+9. Explain the development environment setup.
+
+Then begin with PHASE 1 and PHASE 2.
+
+Build a visually impressive, high-fidelity, responsive dashboard with the official AI Study Mate branding.
+
+Use realistic placeholder data for the initial UI, but clearly label it as demonstration data.
+
+Do not start by creating an ordinary chatbot.
+
+The first deliverable must demonstrate the identity, dashboard, Tutor workspace, Coach workspace and overall progress experience.
+
+**FINAL PRODUCT VISION:**
+
+AI STUDY MATE should become a student's personal AI-powered academic tutor, career coach, intelligent memory system and learning analytics platform.
+
+It should remember the student's journey, understand their ambitions, teach them accurately, track their actual progress and guide them towards their goals.
+
+Build it as a serious, scalable software product — not a simple college demonstration project.
